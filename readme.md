@@ -1,0 +1,1 @@
+cwiczenia z kursu isa jfdd, nie twierdze ze kompletne ;) 

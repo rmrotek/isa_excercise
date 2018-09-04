@@ -1,0 +1,26 @@
+
+
+#top {
+    background: red;
+    height: 200px;
+    width: 100%;
+    z-index: 0;
+}
+
+#center {
+    background: green;
+    height: 200px;
+    width: 70%;
+    z-index: 2;
+    margin: auto;
+    margin-top: -500px;
+    
+    
+}
+
+#bottom {
+    background: blue;
+    height: 400px;
+    width: 100%;
+    z-index: 0;
+}
