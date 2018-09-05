@@ -1,0 +1,63 @@
+#pierwsze .top{
+    background: red;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+#pierwsze .bottom {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#pierwsze .bottom div {
+    background: green;
+    height: 100px;
+    width: 30%;
+    margin: 0 20px 0 20px;
+
+}
+
+#drugie .top {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+#drugie .top .left {
+    background: red;
+
+    width: 60%;
+    margin: 20px;
+
+}
+#drugie .top .right {
+    background: red;
+
+    width: 40%;
+    margin: 20px;
+
+}
+
+#drugie .bottom {
+    display: flex;
+    background: green;
+    height: 300px;
+    margin: 20px;
+    justify-content: flex-end;
+
+}
+
+#drugie .bottom .inbottom {
+    margin: 20px;
+}
+
+#drugie .bottom .inbottom div {
+    background: blue;
+    height: 50px;
+    width: 300px;
+    margin: 20px;
+}
