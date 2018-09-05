@@ -1,20 +1,19 @@
-
 .top {
     height: 300px;
     display: flex;
     justify-content: space-between;
 }
+
 .top .left {
     background: red;
     width: 60%;
     margin: 20px;
-
 }
+
 .top .right {
     background: red;
     width: 40%;
     margin: 20px;
-
 }
 
 .bottom {
@@ -24,7 +23,6 @@
     margin: 20px;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .bottom .inbottom {
@@ -39,7 +37,8 @@
 }
 
 /* pierdoly */
-div:hover{
+
+div:hover {
     box-sizing: border-box;
     border: 5px dotted black;
 }
