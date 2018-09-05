@@ -1,25 +1,23 @@
 
-#drugie .top {
+.top {
     height: 300px;
     display: flex;
     justify-content: space-between;
 }
-#drugie .top .left {
+.top .left {
     background: red;
-
     width: 60%;
     margin: 20px;
 
 }
-#drugie .top .right {
+.top .right {
     background: red;
-
     width: 40%;
     margin: 20px;
 
 }
 
-#drugie .bottom {
+.bottom {
     display: flex;
     background: green;
     height: 300px;
@@ -29,11 +27,11 @@
 
 }
 
-#drugie .bottom .inbottom {
+.bottom .inbottom {
     margin: 20px;
 }
 
-#drugie .bottom .inbottom div {
+.bottom .inbottom div {
     background: blue;
     height: 50px;
     width: 300px;

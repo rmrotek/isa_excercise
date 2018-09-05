@@ -1,15 +1,15 @@
-#pierwsze .top{
+.top{
     background: red;
     height: 200px;
 }
 
-#pierwsze .bottom {
+.bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-#pierwsze .bottom div {
+.bottom div {
     background: green;
     height: 500px;
     width: 30%;
