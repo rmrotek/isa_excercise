@@ -11,7 +11,7 @@
     margin: auto;
     margin-top: -50px;
     box-shadow: 0 0px 0px black;
-    animation: slidein alternate infinite 2s;
+    animation: slidein alternate infinite 1s;
 }
 
 @keyframes slidein {
