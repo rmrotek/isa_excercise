@@ -11,10 +11,21 @@
     margin: auto;
     margin-top: -50px;
     box-shadow: 0 0px 0px black;
-    transition: background-color, box-shadow, 1s;
+    animation: slidein alternate infinite 2s;
 }
 
-#center:hover {
+@keyframes slidein {
+    from {
+        margin-top: 50px;
+    }
+
+    to{
+        margin-top: -50px;
+        box-shadow: 0 50px 50px black;
+    }
+}
+
+#center:slidein {
     background: lightseagreen;
     box-shadow: 0 50px 50px black;
 
