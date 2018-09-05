@@ -2,21 +2,27 @@
     background: red;
     height: 200px;
     width: 100%;
-    z-index: 0;
 }
 
 #center {
     background: green;
     height: 200px;
     width: 70%;
-    z-index: 2;
     margin: auto;
-    margin-top: -500px;
+    margin-top: -50px;
+    box-shadow: 0 0px 0px black;
+    transition: background-color, box-shadow, 1s;
+}
+
+#center:hover {
+    background: lightseagreen;
+    box-shadow: 0 50px 50px black;
+
 }
 
 #bottom {
     background: blue;
     height: 400px;
     width: 100%;
-    z-index: 0;
+    display: flex;
 }
