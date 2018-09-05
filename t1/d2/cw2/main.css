@@ -39,3 +39,9 @@
     width: 300px;
     margin: 20px;
 }
+
+/* pierdoly */
+div:hover{
+    box-sizing: border-box;
+    border: 5px dotted black;
+}
