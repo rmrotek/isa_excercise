@@ -10,6 +10,7 @@
     margin: 10px;
     /* bajerki */
     animation: appear 2s;
+
 }
 
 @media (min-width: 800px) and (max-width: 1199px) {
@@ -32,7 +33,6 @@
 @keyframes appear {
     from {
         opacity: 0;
-        margin-top: -100px;
         
     }
  }
@@ -44,7 +44,7 @@
     .menu-item {
         flex-grow: 1;
     }
-    .menu-item:nth-child(2n) {
+    /* .menu-item:nth-child(2n) {
         display: none;
-    }
+    } */
 }
