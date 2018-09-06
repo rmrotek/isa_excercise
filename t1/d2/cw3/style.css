@@ -5,30 +5,33 @@
 }
 
 #center {
-    background: green;
-    height: 200px;
-    width: 70%;
+    background: black;
+    height: 100px;
+    width: 10px;
     margin: auto;
     margin-top: -50px;
     box-shadow: 0 0px 0px black;
-    animation: slidein alternate infinite 1s;
+    /* animation: slidein alternate infinite 1s; */
+    animation: permarotate infinite 4s linear;
+    transition: 2s linear;
+}
+
+
+
+@keyframes permarotate {
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes slidein {
     from {
         margin-top: 50px;
     }
-
-    to{
+    to {
         margin-top: -50px;
         box-shadow: 0 50px 50px black;
     }
-}
-
-#center:slidein {
-    background: lightseagreen;
-    box-shadow: 0 50px 50px black;
-
 }
 
 #bottom {
