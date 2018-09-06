@@ -1,0 +1,50 @@
+#nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    background: lightgreen;
+    height: 60px;
+    display: flex;
+    margin: 10px;
+    /* bajerki */
+    animation: appear 2s;
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+    #nav {
+        height: 70px;
+        margin-bottom: 20px;
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /*   .logo {
+
+    } */
+    .menu-item {
+        width: 40%;
+        margin: 5%;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        margin-top: -100px;
+        
+    }
+ }
+
+@media (min-width: 1200px) {
+    #nav {
+        flex-direction: row;
+    }
+    .menu-item {
+        flex-grow: 1;
+    }
+    .menu-item:nth-child(2n) {
+        display: none;
+    }
+}
